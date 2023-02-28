@@ -1,0 +1,20 @@
+.navbar {
+    height: 40;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #F0FFFF;
+    border: 1px solid;
+    z-index: 100;
+    justify-content: space-between;
+}
+
+.header_links{
+    display: flex;
+}
+
+.header_link{
+    margin-left: 10px;
+    margin-right: 10px;
+}

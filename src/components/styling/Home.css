@@ -1,0 +1,36 @@
+.home {
+    display: flex;
+    text-align: center;
+    background-color: #F0F8FF;
+    color: white;
+    min-height: 100vh;
+  }
+  
+.logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+  
+  
+.logo {
+    animation: App-logo-spin infinite 20s linear;
+}
+
+  
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+  
+@keyframes App-logo-spin {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+}
+  
