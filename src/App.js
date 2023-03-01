@@ -9,7 +9,7 @@ function App() {
     <div className="app">
       <Routes>
         
-        <Route path='/' element={
+        <Route path='*' element={
           <>
             <Navbar />
             <Home />

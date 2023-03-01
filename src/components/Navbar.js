@@ -7,7 +7,11 @@ function Navbar() {
     <div className='navbar'>
 
         <div className='header_logo'>
-            <h3>CODE FOR GOOD 2023</h3>
+            <span className='hack_for'>hack for </span>
+            <span className='carrot'>{'<'}</span>
+            <span className='good'>good</span>
+            <span>{'>'} </span>
+            <span className='_2023'>2023</span>
         </div>
 
         <div className='header_links'>

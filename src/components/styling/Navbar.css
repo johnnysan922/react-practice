@@ -10,6 +10,23 @@
     justify-content: space-between;
 }
 
+.header_logo{
+    font-size: large;
+    margin: 8px;
+    font-weight: bold;
+    color: gray;
+}
+
+.header_logo > .hack_for{
+    color: rgb(0, 72, 255);
+}
+.header_logo > .good{
+    color: rgb(0, 159, 0);
+}
+.header_logo > ._2023{
+    color: orange;
+}
+
 .header_links{
     display: flex;
 }
