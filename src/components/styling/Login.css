@@ -4,6 +4,14 @@
     align-items: center;
 }
 
+.login a{
+    color: black;
+    text-decoration: none;
+}
+.login a:hover {
+    transform: scale(1.05);
+  }
+
 .login_container{
     display: flex;
     flex-direction: column;

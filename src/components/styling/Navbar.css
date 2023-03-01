@@ -11,29 +11,36 @@
     margin: 10px;
 }
 
-.header_logo{
+.navbar_logo{
     font-size: large;
     margin: 8px;
     font-weight: bold;
     color: gray;
 }
 
-.header_logo > .hack_for{
-    color: rgb(0, 72, 255);
+.navbar_logo > .hack_for{
+    color: rgb(63, 113, 241);
 }
-.header_logo > .good{
+.navbar_logo > .good{
     color: rgb(0, 159, 0);
 }
-.header_logo > ._2023{
+.navbar_logo > ._2023{
     color: orange;
 }
 
-.header_links{
+.navbar_links{
     display: flex;
-    color: white;
 }
 
-.header_link{
+.navbar_link{
+    color: white;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.navbar_links a {
+    text-decoration: none;
+}
+.navbar_links a:hover{
+    transform: scale(1.05);
 }
