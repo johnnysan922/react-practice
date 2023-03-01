@@ -4,10 +4,11 @@
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: #F0FFFF;
+    background-color: #1e1c1c;
     border: 1px solid;
     z-index: 100;
     justify-content: space-between;
+    margin: 10px;
 }
 
 .header_logo{
@@ -29,6 +30,7 @@
 
 .header_links{
     display: flex;
+    color: white;
 }
 
 .header_link{
