@@ -1,18 +1,19 @@
-.login{
+.register{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.login a{
+.register a{
     color: black;
     text-decoration: none;
 }
-.login a:hover {
+
+.register a:hover {
     transform: scale(1.05);
   }
 
-.login_container{
+.register_container{
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -22,28 +23,28 @@
     margin: 20px;
     background-color: white;
 }
-.login_container > h1{
+.register_container > h1{
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.login_container > form > h5{
+.register_container > form > h5{
     margin-bottom: 5px;
 }
 
-.login_container > form > input{
+.register_container > form > input{
     height: 30px;
     margin-bottom: 10px;
     background-color: white;
     width: 98%;
 }
 
-.login_container > p{
+.register_container > p{
     margin-top: 15px;
     font-size: 12px;
 }
 
-.login_signInButton{
+.register_signInButton{
     border-radius: 2px;
     width: 100%;
     height: 30px;
@@ -53,17 +54,17 @@
     border-color: darkgray;
 }
 
-.login_signInButton:hover,
-.login_registerButton:hover{
+.register_signInButton:hover,
+.register_registerButton:hover{
     border: 1px solid;
 }
 
-.register_text{
+.login_text{
     padding: 8px;
 }
-.register_text > a{
+.login_text > a{
     color: rgb(33, 111, 213);
 }
-.register_text a:hover{
+.login_text a:hover{
     color: red;
 }

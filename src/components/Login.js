@@ -25,15 +25,16 @@ function Login() {
                 <input type='password' value={password} onChange={
                         e => setPassword(e.target.value)} />
 
-                <button className='login_signInButton'  type='submit' onClick>
-                    Sign In
-                </button>
             </form>
 
 
-            <button className='login_registerButton' onClick>
-                Create your Account
+            <button className='login_signInButton'>
+                Login
             </button>
+
+            <h4 className='register_text'>
+                Don't have an account? <Link to='/register'>Register</Link>
+            </h4>
             
         </div>
 
